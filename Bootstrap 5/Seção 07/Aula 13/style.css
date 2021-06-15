@@ -1,0 +1,68 @@
+.bg-primary {
+  background-color: #fdc800 !important;
+}
+.bg-secondary {
+  background-color: #002147 !important;
+}
+.bg-light {
+  background-color: #f0f4f9 !important;
+}
+.bg-half-light {
+  background: linear-gradient(0deg, white 50%, #f0f4f9 50%);
+}
+.btn-primary {
+  background-color: #fdc800;
+  border: 1px solid #fdc800;
+  color: #002147;
+}
+.btn-primary:hover {
+  background-color: #fdc800;
+  border: 1px solid #002147;
+  color: #002147;
+}
+.btn-info {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.btn-info:hover {
+  border: 1px solid #002147 !important;
+  background-color: white;
+}
+.text-primary {
+  color: #fdc800 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .text-large {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .text-small {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .text-large {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .text-small {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .text-large {
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .text-small {
+    font-size: 14px;
+  }
+}
+.text-secondary {
+  color: #002147 !important;
+}
+.text-body {
+  color: #757575 !important;
+}

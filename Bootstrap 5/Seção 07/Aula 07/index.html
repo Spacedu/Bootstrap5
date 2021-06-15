@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Aula 07</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- START - Cabeçalho amarelo -->
+    <div class="bg-primary">
+      <div class="container p-2 d-flex">
+        <div class="d-none d-xl-block">
+          <img alt="icone pin" src="/img/pin.svg" />
+          Rua Heitor Penteado, 1200 - São Paulo
+        </div>
+        <div class="ms-xl-5 d-none d-md-block">
+          <img alt="icone email" src="/img/letter.svg" />
+          contato@educacaoone.com.br
+        </div>
+        <div class="ms-md-auto me-md-0 mx-auto">
+          <img alt="facebook" src="/img/facebook.svg" />
+          <img alt="pinterest" src="/img/pinterest.svg" />
+          <img alt="twitter" src="/img/twitter.svg" />
+          <img alt="instagram" src="/img/instagram.svg" />
+        </div>
+      </div>
+    </div>
+    <!-- END - Cabeçalho amarelo -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container p-2">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.svg" style="height: 38px" class="me-2" />
+          EducaçãoONE
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-md-4">
+            <li class="nav-item mx-lg-2 mx-xl-4">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item mx-lg-2 mx-xl-4">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item mx-lg-2 mx-xl-4">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
+            <li class="nav-item mx-lg-2 mx-xl-4">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn-primary me-3">Cadastre-se</button>
+            <button class="btn btn-info border">
+              <img src="/img/search.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

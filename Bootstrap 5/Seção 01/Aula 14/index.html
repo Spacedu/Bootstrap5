@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 - Aula 14</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            background-color: #597687;
+        }
+        .row {
+            margin-top: 50px;
+            background-color: #336B87;
+        }
+        .row [class^=col] {
+            background-color: #90AFC5;
+            border: 5px solid #2A3132;
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!--
+        p = Padding
+        m = Margin
+
+        p-0 = 0 rem.
+        
+        1 = rem = 16px
+        0 = 0rem
+        1 = 0.25rem
+        2 = 0.5rem
+        3 = 1rem
+        4 = 1.5rem
+        5 = 3rem
+        auto = center
+
+        t = top
+        b = bottom
+        s = start (left)
+        e = end (right)
+
+        x = start-end
+        y = top-bottom
+
+        breakpoints
+    -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 m-auto py-md-4 py-xl-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit, itaque ullam iste nam necessitatibus provident dolorem sed? Molestiae aut recusandae voluptatem ullam libero in ratione consequuntur velit cum corrupti.
+            </div>
+            <div class="col-4 mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequuntur, corrupti possimus rem dolorem fuga dicta nulla architecto ipsum autem voluptates ipsam tenetur earum explicabo temporibus, hic magnam est in.
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
