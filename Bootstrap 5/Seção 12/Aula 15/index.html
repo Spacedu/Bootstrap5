@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 - Aula 15</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <button class="btn btn-primary" id="botao"
+    >Mostrar</button>
+    <div class="toast-container position-absolute bottom-0 end-0">
+        <div class="toast bg-primary text-white  m-2" data-bs-animation="false" data-bs-autohide="true" data-bs-delay="3000">
+            <div class="toast-header">
+                <strong class="me-auto">(Gerente) João Rodrigues diz:</strong>
+                <button class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                Preciso do relatório de vendas do mês ainda hoje, urgente!
+            </div>
+        </div>
+        <div class="toast bg-primary text-white m-2" data-bs-animation="false" data-bs-autohide="true" data-bs-delay="3000">
+            <div class="toast-header">
+                <strong class="me-auto">(Gerente) João Rodrigues diz:</strong>
+                <button class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                Preciso do relatório de vendas do mês ainda hoje, urgente!
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script>
+        var options = {
+            animation: false,
+            autohide: true,
+            delay: 10000
+        };
+        
+        document.querySelector("#botao").addEventListener("click", ()=>{
+            var elements = document.querySelectorAll(".toast");
+
+            elements.forEach((element)=> {
+                var toast = new bootstrap.Toast(element, options);
+                toast.show();
+            });
+        });
+        
+    </script>
+</body>
+</html>

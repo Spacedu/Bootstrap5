@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Aula 17</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="p-4">
+    <div
+      id="carousel01"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel01"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel01"
+          data-bs-slide-to="1"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img
+            src="https://cdni.rbth.com/rbthmedia/images/2020.01/original/5e21a9c815e9f9789c64f7e2.jpg"
+            class="w-100"
+          />
+          <div class="carousel-caption">
+            <h5>Estrada de carro</h5>
+            <p>Estrada da Sibéria</p>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="https://4.bp.blogspot.com/_t7B_Um42taM/THrY6dCydwI/AAAAAAAAAsY/CZ5zjRrKBWI/s1600/DSC_6086+-+C%C3%B3pia.JPG"
+            class="w-100"
+          />
+          <div class="carousel-caption">
+            <h5>Raio caindo no mar</h5>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        data-bs-target="#carousel01"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-bs-target="#carousel01"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      /*
+        MANUAL
+        var element = document.querySelector("#carousel01");
+        new bootstrap.Carousel(element);
+        */
+    </script>
+  </body>
+</html>

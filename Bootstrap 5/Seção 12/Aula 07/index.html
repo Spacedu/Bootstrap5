@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Aula 07</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="p-4">
+    <h1>FAQ</h1>
+
+    <div class="accordion accordion-flush" id="accordionPai">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            data-bs-toggle="collapse"
+            data-bs-target="#resposta01"
+          >
+            Pergunta 01: O que é accordion?
+          </button>
+        </h2>
+        <div
+          data-bs-parent="#accordionPai"
+          class="accordion-collapse collapse show"
+          id="resposta01"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus deserunt iste consequuntur. Unde cumque possimus
+            aliquam, obcaecati dicta repellat fuga, blanditiis excepturi rerum
+            iure magnam suscipit deserunt esse, non minus?
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#resposta02"
+          >
+            Pergunta 02: O que é accordion?
+          </button>
+        </h2>
+        <div
+          data-bs-parent="#accordionPai"
+          class="accordion-collapse collapse"
+          id="resposta02"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus deserunt iste consequuntur. Unde cumque possimus
+            aliquam, obcaecati dicta repellat fuga, blanditiis excepturi rerum
+            iure magnam suscipit deserunt esse, non minus?
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#resposta03"
+          >
+            Pergunta 03: O que é accordion?
+          </button>
+        </h2>
+        <div
+          data-bs-parent="#accordionPai"
+          class="accordion-collapse collapse"
+          id="resposta03"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus deserunt iste consequuntur. Unde cumque possimus
+            aliquam, obcaecati dicta repellat fuga, blanditiis excepturi rerum
+            iure magnam suscipit deserunt esse, non minus?
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

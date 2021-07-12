@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - Aula 09</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="p-4">
+    <table class="table table-bordered table-hover">
+      <tr>
+        <td>
+          Mouse da Microsoft
+          <span class="badge bg-warning">Estoque baixo: 2</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Mouse da Corsair <span class="badge bg-success">100</span></td>
+      </tr>
+      <tr>
+        <td>Mouse da Razor <span class="badge bg-danger">Sem estoque</span></td>
+      </tr>
+      <tr>
+        <td>Mouse da RedDragon</td>
+      </tr>
+    </table>
+    <hr />
+    <button class="btn btn-outline-primary">
+      Notificações
+      <span class="badge bg-danger">4</span>
+    </button>
+    <hr />
+    <button class="btn btn-outline-primary position-relative">
+      Notificações
+      <span
+        class="
+          badge
+          bg-danger
+          position-absolute
+          top-0
+          start-100
+          rounded-pill
+          translate-middle
+        "
+        >+1000</span
+      >
+    </button>
+    <hr />
+    <button class="btn btn-primary position-relative">
+      Notificações
+      <span
+        class="
+          badge
+          bg-danger
+          position-absolute
+          top-0
+          start-100
+          p-2
+          border border-light
+          rounded-circle
+          translate-middle
+        "
+      >
+        <span class="visually-hidden">0</span>
+      </span>
+    </button>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
