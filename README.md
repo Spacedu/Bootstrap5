@@ -10,7 +10,7 @@
 
 <h4 align="center">Código-fonte do curso de Bootstrap 5
     <br>
-<a href="http://github.com/spacedu/bootstrap5" target="_blank">Link do curso</a></h4>
+<a href="https://www.udemy.com/course/bootstrap-5-curso-completo-3-projetos/" target="_blank">Link do curso</a></h4>
 
 <p align="center">
   <a href="#principais-tópicos">Principais tópicos</a> •
@@ -70,7 +70,7 @@ Este curso foi desenvolvido por <b>[Elias Ribeiro](https://github.com/eliasribei
 * ****
 ## Relacionado
 
-[bootstrap 5](https://getbootstrap.com/) - A biblioteca mais popular de HTML, CSS e JS.
+[Bootstrap 5](https://getbootstrap.com/) - A biblioteca mais popular de HTML, CSS e JS.
 * ****
 ## Suporte
 
