@@ -15,6 +15,7 @@
 <p align="center">
   <a href="#principais-tópicos">Principais tópicos</a> •
   <a href="#projetos">Projetos</a> •
+  <a href="#versões">Versões</a> •
   <a href="#créditos">Créditos</a> •
   <a href="#créditos">Relacionado</a>  •
   <a href="#créditos">Suporte</a> 
@@ -62,6 +63,10 @@
 * Site educacional.
 * Painel de controle (Dashboard).
 
+## Versões
+As seguintes versões foram usadas no curso:
+* Bootstrap 5.0.0.
+* Bootstrap 5.0.1.
 * ****
 ## Créditos
 
